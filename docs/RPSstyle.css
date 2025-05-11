@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    text-align:center;
+  
+}
+body{
+    background-color:rgb(205, 255, 255);
+}
+h1{ background-color:aqua;
+    color:#071952;
+    line-height:4rem;   /*line ki height*/
+    height:4rem;  /*backgroundcolor ki height*/
+}
+.choices{
+    display: flex;  
+    justify-content: center;
+    gap:3rem;
+    align-items:center;
+    margin-top:5rem;
+
+}
+.choice{
+    height:100px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height:100px;
+    width:100px;
+    /* object-fit: cover;  img ko sahi tarike se fit karegi in a range of height and width */
+}
+.choice:hover{
+    opacity:65%;
+    cursor:pointer;
+}
+.score_board{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:6rem;
+    font-size:2.5rem;
+    margin-top: 2rem;
+}
+.score{
+    /* display:flex;
+    align-items:center;
+    justify-content: center; */
+    /* gap:rem; */
+    /* padding-top: 2rem; */
+}
+.msg_container{
+    margin-top:3rem;
+}
+#msg{
+    font-size:2rem;
+    margin-top: 5rem;
+    background-color: #0118D8;
+    color:aliceblue;
+    height:5rem;
+    line-height:5rem;
+    /* display: flex; */
+    display:inline;
+    padding:1rem;
+    border-radius:2rem;
+} 
